@@ -118,3 +118,54 @@ console.log(myPenguin);
 // 31. Write another for ... in loop to print the value of each key to the console. (Hint: You'll need to use bracket notation to access the values this way, instead of dot notation!)
 for (property in value);
 console.log(value);
+
+// 32. Add a new property to your penguin called favoriteFoods and set it equal to an array containing a list of three strings.
+myPenguin.favoriteFoods = ["food", "cold", "hot"];
+
+// 33. Access your penguin's second favorite food and print it to the console using console.log()
+myPenguin.favoriteFoods([1]);
+console.log(1)
+
+// 34. Create a new variable called firstFavFood and set it equal to the first item in your penguin's array of favorite foods.
+var firstFavFood
+  = myPenguin.favoriteFoods();
+
+// 35. Add another food to the end of the list.
+myPenguin.firstFavFood.push("ice cream");
+// 36. Print the length of your penguin's favoriteFoods array to the console with console.log()
+myPenguin.favoriteFoods.length("food", "cold", "hot");
+console.log(favoriteFoods)
+
+// 37. Without modifying any of your previous code, write a new line of code that changes the value of the last item in the list to "pineapples" (overwriting the previous value).
+myPenguin.favoritesFoods = "pineapple";
+
+// 38. Create a new variable named lastFavFood that will always point to the last element of your penguin's favoriteFoods array, no matter how many items are in the list. (Hint: this is essentially the same problem as step 18 from above.)
+var lastFavFood = myPenguin.favoriteFoods[3]
+
+//39. Write a for loop to iterate through every food in your penguin's favoriteFood property and print each one to the console. (Hint: This loop will look exactly the same as the one you wrote for step 16 above, except now you're accessing the array as a property of an object.)
+for (property in favoriteFoods);
+console.log(favoriteFoods);
+
+// 40. Add a new property to your penguin called outfit and set it equal to another object with the following properties: hat, shirt, pants, and shoes -- each property should have a string as its value! (I suggest you give it a baseball cap, Hawaiian shirt, cargo shorts, and flip-flops, because wouldn't that be ridiculous?)
+myPenguin.outfit =
+  hat: = "baseball cap",
+    shirt: = "Hawaiian shirt",
+      pants: = "cargo shorts",
+        shoes: = "flip-flops"
+
+// 41. Create a new variable called penguinHatType and set it equal to the value of the hat in your penguin's outfit! Then print your new variable to the console.
+var penguinHatType = myPenguin.outfit.hat;
+console.log(myPenguin.outfit);
+
+// 42. Without modifying any of your previous code, write one new line of code to add an accessory property to your penguin's outfit and set it equal to the string "pocket watch" -- because penguins are classy like that!
+myPenguin.outfit.accessory = "pocket watch";
+
+// 43. Write one more line of code to change the hat in your penguin's outfit to "top hat" and override the previous value. (Again, because penguins are classy!)
+myPenguin.outfit.hat = "top hat";
+
+// 44. This penguin is a freelancer who always works from home, so it doesn't actually need to wear any pants! Let's delete the pants property from this penguin's outfit property. (Hint: see this page on the delete operator for examples.)
+myPenguin.outfit.unshift(pants);
+
+// 45. Write a for ... in loop to print the value of each piece of clothing in your penguin's outfit so you can see a list of clothing items in the console. (Hint: This is the same as step 31 from above, only now we're accessing values from a nested object!)
+for (property in myPenguin.oufit);
+console.log(myPenguin.outfit [property]);
